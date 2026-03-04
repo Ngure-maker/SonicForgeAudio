@@ -1,0 +1,27 @@
+{
+  "name": "sonicforge-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "16.1.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "@stripe/react-stripe-js": "3.5.0",
+    "@stripe/stripe-js": "5.5.0",
+    "clsx": "2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "5.7.3",
+    "@types/node": "22.13.1",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
+    "eslint": "9.19.0",
+    "eslint-config-next": "16.1.6"
+  }
+}
